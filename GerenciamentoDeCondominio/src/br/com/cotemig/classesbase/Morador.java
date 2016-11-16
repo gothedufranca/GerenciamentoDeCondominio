@@ -1,8 +1,9 @@
 package br.com.cotemig.classesbase;
 
 public class Morador {
-	private String nome = null;
+
 	private String cpf = null;
+	private String nome = null;
 	private String condominio = null;
 	private String apartamento = null;
 	

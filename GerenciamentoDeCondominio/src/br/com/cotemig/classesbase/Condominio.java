@@ -1,8 +1,8 @@
 package br.com.cotemig.classesbase;
 
 public class Condominio {
-	private String nome = null;
 	private String cnpj = null;
+	private String nome = null;
 	private String rua = null;
 	private int numero;
 	private String bairro = null;

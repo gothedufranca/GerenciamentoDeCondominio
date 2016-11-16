@@ -4,14 +4,14 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class UseDataBase extends Connect {
+public class UseDataBase extends FabricaConexoes {
 	private static Connection connection = null;
 	
 	public static boolean insereConta(String cnpj, String cpf, String data, double valor){
 		boolean test = false;
 		try {
 			if (connection == null || connection.isClosed())
-				Connect.getConnection(connection);
+				FabricaConexoes.getConnection(connection);
 			PreparedStatement ps;
 			String sql = "insert into conta (cnpj, cpf, data, valor) values (?, ?, ?, ?)";
 			ps = connection.prepareStatement(sql);
