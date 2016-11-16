@@ -1,14 +1,7 @@
 package br.com.cotemig.classesbase;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name="morador")
 public class Morador {
-	
-	@Id
+
 	private String cpf = null;
 	private String nome = null;
 	private String condominio = null;
