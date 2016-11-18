@@ -7,7 +7,7 @@ public class Condominio {
 	private int numero;
 	private String bairro = null;
 	private String cidade = null;
-	
+
 	/**
 	 * @return the nome
 	 */
@@ -80,6 +80,6 @@ public class Condominio {
 	public void setCidade(String cidade) {
 		this.cidade = cidade;
 	}
-	
-	
+
+
 }

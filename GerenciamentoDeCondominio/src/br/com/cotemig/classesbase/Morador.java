@@ -8,9 +8,9 @@ public class Morador {
 	private String apartamento = null;
 	private String situacao;
 	private double valorCondominio;
-	
+
 	public Morador(){
-		
+
 	}
 	/**
 	 * @return the nome
@@ -84,6 +84,6 @@ public class Morador {
 	public void setValorCondominio(double valorCondominio) {
 		this.valorCondominio = valorCondominio;
 	}
-	
-	
+
+
 }
