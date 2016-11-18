@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.SQLException;
-
 import javax.swing.JOptionPane;
+
 @SuppressWarnings("unused")
 public class LeTxt {
 	private String cnpj;

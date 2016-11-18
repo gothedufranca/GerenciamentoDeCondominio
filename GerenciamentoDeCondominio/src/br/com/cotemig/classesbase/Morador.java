@@ -6,6 +6,8 @@ public class Morador {
 	private String nome = null;
 	private String condominio = null;
 	private String apartamento = null;
+	private String situacao;
+	private double valorCondominio;
 	
 	public Morador(){
 		
@@ -57,6 +59,30 @@ public class Morador {
 	 */
 	public void setApartamento(String apartamento) {
 		this.apartamento = apartamento;
+	}
+	/**
+	 * @return the situacao
+	 */
+	public String getSituacao() {
+		return situacao;
+	}
+	/**
+	 * @param situacao the situacao to set
+	 */
+	public void setSituacao(String situacao) {
+		this.situacao = situacao;
+	}
+	/**
+	 * @return the valorCondominio
+	 */
+	public double getValorCondominio() {
+		return valorCondominio;
+	}
+	/**
+	 * @param valorCondominio the valorCondominio to set
+	 */
+	public void setValorCondominio(double valorCondominio) {
+		this.valorCondominio = valorCondominio;
 	}
 	
 	

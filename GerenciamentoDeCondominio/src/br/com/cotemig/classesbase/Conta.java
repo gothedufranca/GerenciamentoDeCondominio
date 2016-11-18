@@ -1,4 +1,4 @@
-package br.com.cotemig.persistence;
+package br.com.cotemig.classesbase;
 
 
 @SuppressWarnings("unused")
